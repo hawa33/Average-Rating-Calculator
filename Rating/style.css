@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: #020202;
+}
+
+.rating {
+    font-size: 36px;
+    color: #000000;
+}
+
+.star {
+    cursor: pointer;
+    color: #ff0000;
+}
+
+.star:hover, .star.active {
+    color: #ffee05;
+}
